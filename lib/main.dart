@@ -86,6 +86,7 @@ class _Hw9State extends State<Hw9> {
           }
           if(length+1 == 6) {
             if (_inputstate == PIN) {
+              print('Correct! NEXT PAGE');
               setState(() {
                 Navigator.push(
                   context,
