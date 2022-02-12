@@ -16,21 +16,21 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.pink,
       ),
-      home: Hw7(),
+      home: Hw9(),
     );
   }
 }
 
-class Hw7 extends StatefulWidget {
+class Hw9 extends StatefulWidget {
   static const buttonSize = 75.0;
 
-  const Hw7({Key? key}) : super(key: key);
+  const Hw9({Key? key}) : super(key: key);
 
   @override
-  State<Hw7> createState() => _Hw7State();
+  State<Hw9> createState() => _Hw9State();
 }
 
-class _Hw7State extends State<Hw7> {
+class _Hw9State extends State<Hw9> {
   String _inputstate = '';
   final String PIN = "123456";
   String message = "";
@@ -123,8 +123,8 @@ class _Hw7State extends State<Hw7> {
               ]),
 
           alignment: Alignment.center,
-          width: Hw7.buttonSize,
-          height: Hw7.buttonSize,
+          width: Hw9.buttonSize,
+          height: Hw9.buttonSize,
           child: Container(child: child
           ),
         ),
